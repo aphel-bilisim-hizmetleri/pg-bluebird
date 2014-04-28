@@ -11,6 +11,8 @@ PostgreSQL client extension for bluebird promise support
 
 pg-bluebird module is designed to bring Promises/A+ ability to well known pg module. You can use it just like standard pg module with promise support.
 
+Please see example below.
+
 
 ## Example
 
