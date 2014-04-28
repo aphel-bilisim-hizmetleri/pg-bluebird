@@ -1,0 +1,52 @@
+{
+    "name": "pg-bluebird",
+    "description": "PostgreSQL client extension for bluebird promise support",
+    "version": "1.0.0",
+    "main": "lib",
+    "directories": {
+        "test": "test"
+    },
+    "homepage": "https://github.com/leventkaragol/pg-bluebird/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leventkaragol/pg-bluebird.git"
+    },
+    "bugs": {
+        "url": "https://github.com/leventkaragol/pg-bluebird/issues",
+        "email": "leventkaragol@gmail.com"
+    },
+    "author": {
+        "name": "H.Levent KARAGÖL",
+        "email": "leventkaragol@gmail.com",
+        "url": "http://www.jskoleji.com/"
+    },
+    "dependencies": {
+        "bluebird": "1.x"
+    },
+    "devDependencies": {
+        "jasmine-node": "1.x"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/leventkaragol/pg-bluebird/raw/master/LICENSE"
+        }
+    ],
+    "keywords": [
+        "pg",
+        "postgres",
+        "postgresql",
+        "bluebird",
+        "promise",
+        "promises",
+        "promises-a",
+        "promises-aplus",
+        "async",
+        "await",
+        "deferred",
+        "deferreds"
+    ]
+}
