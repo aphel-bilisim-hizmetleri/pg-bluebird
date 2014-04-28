@@ -21,7 +21,8 @@
         "url": "http://www.jskoleji.com/"
     },
     "dependencies": {
-        "bluebird": "1.x"
+        "bluebird": "1.x",
+        "pg": "3.x"
     },
     "devDependencies": {
         "jasmine-node": "1.x"
