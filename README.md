@@ -45,6 +45,8 @@ Please see the example below.
         .then(function (result) {
 
             console.log(result.rows);
+
+            cnn.client.end();
         })
         .catch(function (error) {
 
