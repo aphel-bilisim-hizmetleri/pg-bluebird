@@ -7,7 +7,7 @@ PostgreSQL client extension for bluebird promise support
 
 ## Features
 
-<img align="right" width="200" height="200" src="http://1.bp.blogspot.com/-9htCSfSumtI/U15fc6nhguI/AAAAAAAAVCA/nwmwojkCVA8/s1600/pg-bluebird.png">
+<img align="right" width="148" height="148" src="http://1.bp.blogspot.com/-I0ScUCTSpVs/U15gK6M86uI/AAAAAAAAVCI/i9XUxIyMt38/s1600/pg-bluebird.png">
 
   * Auto migration from scratch to up to date
   * Step by step forward migration
