@@ -1,8 +1,8 @@
 {
     "name": "pg-bluebird",
     "description": "PostgreSQL client extension for bluebird promise support",
-    "version": "1.0.0",
-    "main": "lib",
+    "version": "1.0.1",
+    "main": "lib/pg-bluebird.js",
     "directories": {
         "test": "test"
     },
