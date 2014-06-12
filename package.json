@@ -1,24 +1,24 @@
 {
     "name": "pg-bluebird",
     "description": "PostgreSQL client extension for bluebird promise support",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "lib/pg-bluebird.js",
     "directories": {
         "test": "test"
     },
-    "homepage": "https://github.com/leventkaragol/pg-bluebird/",
+    "homepage": "https://github.com/Aphel-Cloud-Solutions/pg-bluebird/",
     "repository": {
         "type": "git",
-        "url": "https://github.com/leventkaragol/pg-bluebird.git"
+        "url": "https://github.com/Aphel-Cloud-Solutions/pg-bluebird.git"
     },
     "bugs": {
-        "url": "https://github.com/leventkaragol/pg-bluebird/issues",
-        "email": "leventkaragol@gmail.com"
+        "url": "https://github.com/Aphel-Cloud-Solutions/pg-bluebird/issues/",
+        "email": "lkaragol@aphel.com.tr"
     },
     "author": {
         "name": "H.Levent KARAGÖL",
-        "email": "leventkaragol@gmail.com",
-        "url": "http://www.jskoleji.com/"
+        "email": "lkaragol@aphel.com.tr",
+        "url": "http://www.aphel.com.tr/"
     },
     "dependencies": {
         "bluebird": "1.x",
@@ -33,7 +33,7 @@
     "licenses": [
         {
             "type": "MIT",
-            "url": "https://github.com/leventkaragol/pg-bluebird/raw/master/LICENSE"
+            "url": "https://raw.githubusercontent.com/Aphel-Cloud-Solutions/pg-bluebird/master/LICENSE"
         }
     ],
     "keywords": [
