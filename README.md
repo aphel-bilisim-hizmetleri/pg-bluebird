@@ -3,7 +3,7 @@ pg-bluebird
 
 PostgreSQL client extension for bluebird promise support
 
-[![Build Status](https://travis-ci.org/leventkaragol/pg-bluebird.png?branch=master)](https://travis-ci.org/leventkaragol/pg-bluebird) [![Code Climate](https://codeclimate.com/github/leventkaragol/pg-bluebird.png)](https://codeclimate.com/github/leventkaragol/pg-bluebird)
+[![Build Status](https://travis-ci.org/Aphel-Cloud-Solutions/pg-bluebird.png?branch=master)](https://travis-ci.org/Aphel-Cloud-Solutions/pg-bluebird) [![Code Climate](https://codeclimate.com/github/Aphel-Cloud-Solutions/pg-bluebird.png)](https://codeclimate.com/github/Aphel-Cloud-Solutions/pg-bluebird)
 
 ## Features
 
