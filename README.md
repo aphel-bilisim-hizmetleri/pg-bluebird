@@ -46,7 +46,7 @@ Please see the example below.
 
             console.log(result.rows);
 
-            cnn.client.end();
+            cnn.done();
         })
         .catch(function (error) {
 
