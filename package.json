@@ -21,8 +21,8 @@
         "url": "http://www.aphel.com.tr/"
     },
     "dependencies": {
-        "bluebird": "1.x",
-        "pg": "3.x"
+        "bluebird": "2.x",
+        "pg": "4.x"
     },
     "devDependencies": {
         "jasmine-node": "1.x"
