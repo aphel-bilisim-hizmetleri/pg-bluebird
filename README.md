@@ -18,38 +18,34 @@ Please see the example below.
 
 ```javascript
     var Pgb = require("pg-bluebird");
+    var all = require("bluebird").all;
+    var using = require("bluebird").using;
 
     var pgb = new Pgb();
 
-    var cnn;
+    var connect = function (connectionString) {
+        var close;
+        return pgb.connect(connectionString).spread(function(client, done) {
+            close = done;
+            return client;
+        }).disposer(function(client) {
+            if (close) close(client);
+        });
+    }
 
-    pgb.connect("postgres://test:test@localhost/testdb")
-        .then(function (connection) {
-
-            cnn = connection;
-
-            return cnn.client.query("SELECT * from table1");
+    using(connect("postgres://test:test@localhost/testdb"), function (cnn) {
+            return Promise.all([
+                cnn.client.query("SELECT * from table1"),
+                cnn.client.query("SELECT * from table2"),
+                cnn.client.query("SELECT * from table3")
+            ]);
         })
-        .then(function (result) {
-
-            console.log(result.rows);
-
-            return cnn.client.query("SELECT * from table2");
-        })
-        .then(function (result) {
-
-            console.log(result.rows);
-
-            return cnn.client.query("SELECT * from table3");
-        })
-        .then(function (result) {
-
-            console.log(result.rows);
-
-            cnn.done();
+        .then(function (results) {
+            for(var i = 0; i < results.length; i++) {
+                console.log(results[i].rows);
+            }
         })
         .catch(function (error) {
-
             console.log(error);
         });
 ```
