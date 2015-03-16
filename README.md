@@ -25,9 +25,9 @@ Please see the example below.
 
     var connect = function (connectionString) {
         var close;
-        return pgb.connect(connectionString).spread(function(client, done) {
-            close = done;
-            return client;
+        return pgb.connect(connectionString).then(function(connResults) {
+            close = connResults.done;
+            return connResults.client;
         }).disposer(function(client) {
             if (close) close(client);
         });
